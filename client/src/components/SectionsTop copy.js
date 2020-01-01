@@ -31,7 +31,7 @@ export default class SectionsTop extends Component {
         <div className="section">
           <span>{`${this.props.picks.toUpperCase()}`}</span>
         </div>
-        <div className="grid-container">
+        <div className="cards">
           {this.state.articles.slice(0, 3).map((article, i) => {
             return (
               <div key={`article-title-${i}`} className="card m-5">
